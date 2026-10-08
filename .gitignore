@@ -1,0 +1,45 @@
+# ==============================================================================
+# Git Ignore Rules for memristive-hyperchaotic-medical-image-encryption
+# ==============================================================================
+
+# --- Operating System Artifacts ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# --- MATLAB Artifacts ---
+*.asv
+*.m~
+*.slxc
+*.mex*
+*.mat~
+slprj/
+sfprj/
+
+# --- Compiled Embedded Firmware Artifacts ---
+hardware_stm32/*.elf
+hardware_stm32/*.bin
+hardware_stm32/*.hex
+hardware_stm32/*.map
+hardware_stm32/*.o
+hardware_stm32/*.su
+hardware_stm32/*.d
+hardware_stm32/Debug/
+hardware_stm32/Release/
+
+# --- Transient Data & Key Packages ---
+outputs/encrypted_package.mat
+outputs/cipher_image.png
+outputs/decrypted_image.png
+outputs/scrambled_image.png
+
+# --- IDE / Editor Configurations ---
+.vscode/
+.idea/
+*.swp
+*~
