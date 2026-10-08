@@ -196,24 +196,6 @@ The repository is structured into modular scripts and engines requiring **MATLAB
 * **Hardware (Optional):** STM32G474RE Nucleo connected via USB to `COM10` (the software engine automatically executes if hardware is absent).
 * **Embedded Toolchain (Optional, for building firmware):** `arm-none-eabi-gcc` and `STM32_Programmer_CLI.exe`.
 
-### Execution Steps
-```matlab
-% In MATLAB Command Window:
-cd 'C:\Users\YASH\Desktop\projects\RESEARCH PROJECTS\Memristive_HyperChaos_Medical_HIL'
-
-% Step 1: Encrypt clinical scan
-step1_encrypt_medical_image
-
-% Step 2: Decrypt package and verify lossless reconstruction
-step2_decrypt_medical_image
-
-% Step 3: Run comprehensive security audit
-step3_security_audit
-
-% Benchmark: Execute multi-model comparative suite
-run_full_benchmark
-```
-
 ### Firmware Compilation & Flashing (Optional)
 ```powershell
 cd hardware_stm32
