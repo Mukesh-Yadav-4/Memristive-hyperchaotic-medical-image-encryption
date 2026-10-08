@@ -298,6 +298,20 @@ The empirical evaluation executed in `step3_security_audit.m` yielded the follow
 
 ---
 
+## Visual Results
+
+### Encryption and Lossless Reconstruction
+![Encryption pipeline](outputs/step1_encryption_results.png)
+![Decryption and reconstruction](outputs/step2_decryption_results.png)
+
+### Security Audit
+![Security audit](outputs/step3_security_audit_results.png)
+
+### Multi-Model Benchmark
+![Benchmark comparison](outputs/benchmark_comparison.png)
+
+---
+
 ## 13. Limitations and Security Scope
 
 This software is developed strictly for **academic research, non-linear dynamics exploration, and educational evaluation**. Users and evaluators should note the following constraints:
